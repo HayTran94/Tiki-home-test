@@ -1,3 +1,5 @@
+package main;
+
 public class CartItem {
     private Product product;
     private int qty;
@@ -31,7 +33,7 @@ public class CartItem {
         this.qty -= number;
     }
 
-    public float calculatePrice() {
+    public double calculatePrice() {
         return product.getPrice() * qty;
     }
 }

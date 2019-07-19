@@ -1,8 +1,10 @@
+package main;
+
 public class Product {
     private String name;
-    private float price;
+    private double price;
 
-    public Product(String name, float price) {
+    public Product(String name, double price) {
         this.name = name;
         this.price = price;
     }
@@ -15,7 +17,7 @@ public class Product {
         this.name = name;
     }
 
-    public float getPrice() {
+    public double getPrice() {
         return price;
     }
 

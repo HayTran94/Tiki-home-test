@@ -23,7 +23,8 @@ public class ModelTest extends TestCase {
         ShoppingCart cart = user.createShopingCart();
         cart.addProduct(appleProduct, 2);
         cart.addProduct(orangeProduct, 1);
-        Assert.assertEquals(cart.calculateTotalPrice(), 4.95 * 2 + 3.99, 0f);
+        cart.addProduct(appleProduct, 5);
+        Assert.assertEquals(cart.calculateTotalPrice(), 4.95 * 7 + 3.99, 0);
     }
 
     @Test
@@ -32,7 +33,7 @@ public class ModelTest extends TestCase {
         ShoppingCart cart = user.createShopingCart();
         cart.addProduct(appleProduct, 3);
         cart.removeProduct(appleProduct, 1);
-        Assert.assertEquals(cart.calculateTotalPrice(), 4.95 * 2, 0f);
+        Assert.assertEquals(cart.calculateTotalPrice(), 4.95 * 2, 0);
     }
 
 }

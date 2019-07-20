@@ -4,36 +4,30 @@ import main.Product;
 import main.ShoppingCart;
 import main.User;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 public class ModelTest extends TestCase {
-
-    private Product appleProduct;
-    private Product orangeProduct;
-    @Before
-    public void setUp() {
-        appleProduct = new Product("Apple", 4.95);
-        orangeProduct = new Product("Orange", 3.99);
-    }
+    float applePrice = 4.95f;
+    float orangePrice = 3.99f;
+    private Product appleProduct = new Product("Apple", applePrice);
+    private Product orangeProduct = new Product("Orange", orangePrice);
 
     @Test
-    public void test1() {
+    public void test1() throws Exception {
         User user = new User("John Doe", "john.doe@example.com");
-        ShoppingCart cart = user.createShopingCart();
+        ShoppingCart cart = user.createShoppingCart();
         cart.addProduct(appleProduct, 2);
         cart.addProduct(orangeProduct, 1);
-        cart.addProduct(appleProduct, 5);
-        Assert.assertEquals(cart.calculateTotalPrice(), 4.95 * 7 + 3.99, 0);
+        Assert.assertEquals(cart.calculateTotalPrice(), applePrice * 2 + orangePrice, 0);
     }
 
     @Test
-    public void test2() {
+    public void test2() throws Exception{
         User user = new User("John Doe", "john.doe@example.com");
-        ShoppingCart cart = user.createShopingCart();
+        ShoppingCart cart = user.createShoppingCart();
         cart.addProduct(appleProduct, 3);
         cart.removeProduct(appleProduct, 1);
-        Assert.assertEquals(cart.calculateTotalPrice(), 4.95 * 2, 0);
+        Assert.assertEquals(cart.calculateTotalPrice(), applePrice * 2, 0);
     }
 
 }

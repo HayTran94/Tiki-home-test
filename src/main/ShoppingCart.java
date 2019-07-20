@@ -37,7 +37,7 @@ public class ShoppingCart {
     }
 
     public double calculateTotalPrice() {
-        float totalPrice = 0;
+        double totalPrice = 0;
         for (CartItem cartItem : cartItems.values()) {
             totalPrice += cartItem.calculatePrice();
         }

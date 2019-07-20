@@ -8,6 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class ModelTest extends TestCase {
+
     private Product appleProduct;
     private Product orangeProduct;
     @Before
@@ -20,8 +21,7 @@ public class ModelTest extends TestCase {
     public void test1() {
         User user = new User("John Doe", "john.doe@example.com");
         ShoppingCart cart = user.createShopingCart();
-        cart.addProduct(appleProduct, 1);
-        cart.addProduct(appleProduct, 1);
+        cart.addProduct(appleProduct, 2);
         cart.addProduct(orangeProduct, 1);
         Assert.assertEquals(cart.calculateTotalPrice(), 4.95 * 2 + 3.99, 0.01f);
     }

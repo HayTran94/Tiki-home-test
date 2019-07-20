@@ -20,19 +20,19 @@ public class ShoppingCart {
     }
 
     public void addProduct(Product product, int number) {
-        CartItem foundCartItem = cartItems.get(product.getName());
-        if (foundCartItem == null) {
-            CartItem cartItem = new CartItem(product, number);
-            cartItems.put(product.getName(), cartItem);
+        CartItem cartItem = cartItems.get(product.getName());
+        if (cartItem == null) {
+            CartItem newCartItem = new CartItem(product, number);
+            cartItems.put(product.getName(), newCartItem);
         } else {
-            foundCartItem.increaseQty(number);
+            cartItem.increaseQty(number);
         }
     }
 
     public void removeProduct(Product product, int number) {
-        CartItem foundCartItem = cartItems.get(product.getName());
-        if (foundCartItem != null) {
-            foundCartItem.decreaseQty(number);
+        CartItem cartItem = cartItems.get(product.getName());
+        if (cartItem != null) {
+            cartItem.decreaseQty(number);
         }
     }
 

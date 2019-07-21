@@ -51,7 +51,7 @@ public class CartItem {
      */
     public void setQty(int qty) throws Exception {
         if (qty < 0) {
-            throw new Exception("The product's quantity can not be negative");
+            throw new Exception("The product quantity can not be negative");
         }
         this.qty = qty;
     }
@@ -71,7 +71,7 @@ public class CartItem {
      */
     public void decreaseQty(int number) throws Exception {
         if (qty < number) {
-            throw new Exception("The given number of the product is greater than the current product's quantity");
+            throw new Exception("The given number of the product is greater than the current product quantity");
         }
         qty -= number;
     }

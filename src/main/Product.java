@@ -6,14 +6,14 @@ package main;
  */
 public class Product {
     private String name;
-    private float price;
+    private double price;
 
     /**
      * The constructor of the Product class.
      * @param name A string contain the product name.
-     * @param price A float value of the product price.
+     * @param price A double value of the product price.
      */
-    public Product(String name, float price) {
+    public Product(String name, double price) {
         this.name = name;
         this.price = price;
     }
@@ -36,17 +36,17 @@ public class Product {
 
     /**
      * Return the price of this product.
-     * @return A float value specify the product price.
+     * @return A double value specify the product price.
      */
-    public float getPrice() {
+    public double getPrice() {
         return price;
     }
 
     /**
      * Set a price for this product.
-     * @param price A float value specify the product price.
+     * @param price A double value specify the product price.
      */
-    public void setPrice(float price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 }

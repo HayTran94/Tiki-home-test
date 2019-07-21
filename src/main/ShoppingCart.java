@@ -73,10 +73,10 @@ public class ShoppingCart {
 
     /**
      * Calculate total price for this shopping cart.
-     * @return A float value specify the total price for the shopping cart.
+     * @return A double value specify the total price for the shopping cart.
      */
-    public float calculateTotalPrice() {
-        float totalPrice = 0;
+    public double calculateTotalPrice() {
+        double totalPrice = 0;
         for (CartItem cartItem : cartItems.values()) {
             totalPrice += cartItem.calculateTotalPrice();
         }

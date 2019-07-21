@@ -78,9 +78,9 @@ public class CartItem {
 
     /**
      * Return the total price of this cart item.
-     * @return A float value specify the total price of this cart item.
+     * @return A double value specify the total price of this cart item.
      */
-    public float calculateTotalPrice() {
+    public double calculateTotalPrice() {
         return product.getPrice() * qty;
     }
 }

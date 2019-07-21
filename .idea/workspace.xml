@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd535f4f-df60-4705-b042-03eef35ce842" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ModelTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/CartItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="80" column="71" lean-forward="true" selection-start-line="80" selection-start-column="71" selection-end-line="80" selection-end-column="71" />
+            <state relative-caret-position="1035">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
             </state>
           </provider>
         </entry>
@@ -57,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/ModelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="232">
+              <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,15 +130,16 @@
     <findStrings>
       <find>assertEquals(float</find>
       <find>CartItem</find>
-      <find>float</find>
-      <find>double</find>
       <find>specific</find>
       <find>contain</find>
       <find>containing</find>
       <find>associated</find>
+      <find>double</find>
+      <find>float</find>
     </findStrings>
     <replaceStrings>
       <replace>float</replace>
+      <replace>double</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main</dir>
@@ -154,11 +157,11 @@
         <option value="$PROJECT_DIR$/src/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/CartItemTest.java" />
         <option value="$PROJECT_DIR$/tests/src/ModelTest.java" />
-        <option value="$PROJECT_DIR$/src/tests/ModelTest.java" />
         <option value="$PROJECT_DIR$/src/main/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/main/User.java" />
         <option value="$PROJECT_DIR$/src/main/Product.java" />
         <option value="$PROJECT_DIR$/src/main/CartItem.java" />
+        <option value="$PROJECT_DIR$/src/tests/ModelTest.java" />
       </list>
     </option>
   </component>
@@ -304,8 +307,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ModelTest" />
-        <item itemvalue="JUnit.ModelTest.test1" />
         <item itemvalue="JUnit.ModelTest.test2" />
+        <item itemvalue="JUnit.ModelTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -323,34 +326,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ModelTest_test1 - 2019.07.20 at 21h 54m 01s.xml">
-      <configuration name="ModelTest.test1" configurationId="JUnit" />
+    <history-entry file="ModelTest_test2 - 2019.07.21 at 21h 31m 44s.xml">
+      <configuration name="ModelTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest - 2019.07.20 at 21h 55m 11s.xml">
+    <history-entry file="ModelTest_test2 - 2019.07.21 at 21h 31m 58s.xml">
+      <configuration name="ModelTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelTest - 2019.07.21 at 21h 32m 33s.xml">
       <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest_test1 - 2019.07.20 at 21h 57m 32s.xml">
-      <configuration name="ModelTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ModelTest - 2019.07.20 at 22h 12m 21s.xml">
+    <history-entry file="ModelTest - 2019.07.21 at 21h 35m 51s.xml">
       <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest - 2019.07.20 at 22h 12m 31s.xml">
+    <history-entry file="ModelTest - 2019.07.21 at 21h 37m 37s.xml">
       <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest - 2019.07.20 at 22h 12m 54s.xml">
+    <history-entry file="ModelTest - 2019.07.21 at 21h 37m 49s.xml">
       <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest - 2019.07.20 at 22h 13m 04s.xml">
+    <history-entry file="ModelTest - 2019.07.21 at 21h 38m 36s.xml">
       <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest - 2019.07.20 at 22h 13m 15s.xml">
+    <history-entry file="ModelTest - 2019.07.21 at 21h 39m 08s.xml">
       <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest - 2019.07.20 at 22h 56m 13s.xml">
+    <history-entry file="ModelTest - 2019.07.21 at 21h 39m 20s.xml">
       <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ModelTest - 2019.07.21 at 00h 44m 51s.xml">
+    <history-entry file="ModelTest - 2019.07.21 at 21h 40m 16s.xml">
       <configuration name="ModelTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -365,6 +368,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="27" width="1264" height="715" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25777414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -375,14 +379,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49836335" weight="0.32744783" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497545" weight="0.36436597" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.497545" visible="true" weight="0.36436597" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49836335" weight="0.39967898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49918166" weight="0.32744783" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49836335" weight="0.21348314" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.502455" side_tool="true" weight="0.27608347" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49918166" visible="true" weight="0.32744783" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49918166" weight="0.10754414" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32744783" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -447,13 +451,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ModelTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/CartItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1035">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
@@ -464,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="48" column="67" lean-forward="true" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="740">
@@ -478,10 +472,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/CartItem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="80" column="71" lean-forward="true" selection-start-line="80" selection-start-column="71" selection-end-line="80" selection-end-column="71" />
+        <state relative-caret-position="359">
+          <caret line="48" column="67" lean-forward="true" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/ModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

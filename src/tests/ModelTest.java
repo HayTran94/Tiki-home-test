@@ -7,18 +7,16 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class ModelTest extends TestCase {
-    float applePrice = 4.95f;
-    float orangePrice = 3.99f;
-    private Product appleProduct = new Product("Apple", applePrice);
-    private Product orangeProduct = new Product("Orange", orangePrice);
+    private Product appleProduct = new Product("Apple", 4.95);
+    private Product orangeProduct = new Product("Orange", 3.99);
 
     @Test
-    public void test1() throws Exception {
+    public void test1() {
         User user = new User("John Doe", "john.doe@example.com");
         ShoppingCart cart = user.createShoppingCart();
         cart.addProduct(appleProduct, 2);
         cart.addProduct(orangeProduct, 1);
-        Assert.assertEquals(cart.calculateTotalPrice(), applePrice * 2 + orangePrice, 0);
+        Assert.assertEquals(cart.calculateTotalPrice(), 13.89, 0);
     }
 
     @Test
@@ -27,7 +25,7 @@ public class ModelTest extends TestCase {
         ShoppingCart cart = user.createShoppingCart();
         cart.addProduct(appleProduct, 3);
         cart.removeProduct(appleProduct, 1);
-        Assert.assertEquals(cart.calculateTotalPrice(), applePrice * 2, 0);
+        Assert.assertEquals(cart.calculateTotalPrice(), 9.9, 0);
     }
 
 }
